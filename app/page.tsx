@@ -1,11 +1,9 @@
-import { Header } from './components/Header'
-import { Feed } from './components/Feed'
+import { Feed } from '@/components/Feed'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-100">
-      <Header />
-      <div className="pt-14">
+    <main className="min-h-screen">
+      <div className="p-14">
         <Feed />
       </div>
     </main>
